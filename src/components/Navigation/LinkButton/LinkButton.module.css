@@ -1,0 +1,63 @@
+.link_button {
+  display: flex;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.53);
+  backdrop-filter: blur(7px);
+  color: white;
+  height: 47px;
+  padding: 12px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 375ms ease;
+}
+
+.link_button:hover {
+  background-color: rgba(12, 12, 12, 0.85);
+  color: #00a6ff;
+  transition: all 225ms ease;
+}
+
+.icon {
+  color: #1b91cf;
+  margin-right: 9px;
+  margin-top: 3px;
+  font-size: 26px;
+}
+
+@media (max-width: 1600px) {
+  .link_button {
+    height: 40px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .link_button {
+    height: 35px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .link_button {
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .link_button {
+    height: 25px;
+    padding: 15px 20px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .link_button {
+    height: 24px;
+    padding: 14px 18px;
+    font-size: 12px;
+  }
+}
